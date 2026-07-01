@@ -5,15 +5,6 @@ Suhana Safar is a **full-stack MERN web application** designed to improve public
 The platform helps passengers easily track buses, book seats, manage schedules, and access emergency contacts — all from a single dashboard.
 
 ---
-## 🌐 Live Demo
-
-Frontend (Vercel)  
-https://suhana-safar.vercel.app/
-
-Backend API (Render)  
-https://suhana-safar-backend.onrender.com
-
----
 
 # 🚀 Features
 
@@ -207,12 +198,3 @@ Through this project I practiced:
 
 ---
 
-# 👩‍💻 Author
-
-**Nandini Goel**
-
-B.Tech Computer Science Student
-Aspiring Software Developer | MERN Stack Enthusiast
-
-GitHub:
-https://github.com/Nandini-1811
