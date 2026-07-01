@@ -1,13 +1,13 @@
 import axios from "axios";
 
-fetch("https://suhana-safar-backend.onrender.com/api/health").catch(() => {});
+fetch("https://suhanasafar.onrender.com/api/health").catch(() => {});
 
 const API = axios.create({
-  baseURL: "https://suhana-safar-backend.onrender.com/api",
+  baseURL: "https://suhanasafar.onrender.com/api",
 });
 
 API.interceptors.request.use((config) => {
-  const token = sessionStorage.getItem("token"); 
+  const token = sessionStorage.getItem("token");
   if (token) {
     config.headers.Authorization = `Bearer ${token}`;
   }
