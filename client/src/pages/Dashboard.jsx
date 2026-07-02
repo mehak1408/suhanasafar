@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import busHero from "../assets/bus-hero.svg";
 import API from "../services/api";
 import toast from "react-hot-toast";
 import {
@@ -141,7 +142,51 @@ function Dashboard() {
         </div>
 
       </div>
+      <div className="bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-700 rounded-3xl overflow-hidden shadow-lg">
 
+  <div className="grid md:grid-cols-2 items-center gap-8 p-8">
+
+    <div className="text-white">
+
+      <h2 className="text-4xl font-bold leading-tight">
+        Welcome to
+        <br />
+        Suhana Safar
+      </h2>
+
+      <p className="mt-4 text-indigo-100 leading-7">
+        Experience smarter public transport with
+        real-time bus tracking, seamless ticket booking,
+        schedule management and live updates.
+      </p>
+
+      <div className="mt-6 flex gap-3">
+
+        <div className="bg-white/20 backdrop-blur-md rounded-full px-4 py-2">
+          🚌 Live Tracking
+        </div>
+
+        <div className="bg-white/20 backdrop-blur-md rounded-full px-4 py-2">
+          📅 Smart Scheduling
+        </div>
+
+      </div>
+
+    </div>
+
+    <div className="flex justify-center">
+
+      <img
+        src={busHero}
+        alt="Bus Illustration"
+        className="w-full max-w-md drop-shadow-2xl"
+      />
+
+    </div>
+
+  </div>
+
+</div>
       {/* Platform Stats */}
 
       <div>
