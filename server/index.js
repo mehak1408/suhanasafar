@@ -26,7 +26,7 @@ const server = http.createServer(app);
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://suhana-safar.vercel.app",
+  "https://suhanasafar-five.vercel.app",
 ];
 
 const corsOptions = {
