@@ -23,7 +23,7 @@ connectDB();
 
 const app = express();
 const server = http.createServer(app);
-
+const startAutoSimulation = require("./utils/autoBusSimulator");
 const allowedOrigins = [
   "http://localhost:5173",
   "https://suhanasafar-five.vercel.app",
@@ -55,7 +55,7 @@ const io = new Server(server, {
 });
 
 initSocket(io);
-
+startAutoSimulation();
 app.use("/api/users", userRoutes);
 app.use("/api/buses", busRoutes);
 app.use("/api/bookings", bookingRoutes);

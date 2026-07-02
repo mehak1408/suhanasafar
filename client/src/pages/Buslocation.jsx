@@ -56,6 +56,7 @@ function BusLocation() {
         fetchBuses();
 
         socket.on("busLocationUpdate", (updatedBus) => {
+            console.log("Received socket update:", updatedBus);
             setBuses((prevBuses) =>
                 prevBuses.map((bus) =>
                     bus._id === updatedBus._id ? updatedBus : bus
