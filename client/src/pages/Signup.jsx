@@ -107,7 +107,7 @@ function Signup() {
             <input
               type="text"
               name="name"
-              placeholder="Nandini Goel"
+              placeholder="Your name"
               value={formData.name}
               onChange={handleChange}
               style={styles.input}
