@@ -4,7 +4,7 @@ function About() {
       <div>
         <h1 className="text-3xl font-bold">About Suhana Safar</h1>
         <p className="text-slate-500 dark:text-slate-400 mt-2">
-          Suhana Safar is a smart public transportation management system
+          Suhana Safar smart public transportation management system
           designed to improve passenger convenience and safety through
           real-time tracking, booking services, and emergency support.
         </p>
